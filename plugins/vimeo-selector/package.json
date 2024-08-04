@@ -1,0 +1,14 @@
+{
+  "name": "vimeo-selector",
+  "version": "1.0.0",
+  "description": "its for testing",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@sanity/base": "^2.36.2",
+    "@sanity/components": "^2.14.0",
+    "@sanity/desk-tool": "^2.36.2",
+    "axios": "^1.7.2",
+    "react": "^18.3.1"
+  }
+}
