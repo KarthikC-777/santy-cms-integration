@@ -15,10 +15,15 @@
     "sanity"
   ],
   "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "@reach/auto-id": "^0.18.0",
     "@sanity/vision": "^3.52.4",
+    "popper-max-size-modifier": "^0.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-popper": "^2.3.0",
     "sanity": "^3.52.4",
+    "sanity-plugin-asset-source-unsplash": "^3.0.1",
     "styled-components": "^6.1.8"
   },
   "devDependencies": {

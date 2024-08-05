@@ -6,6 +6,7 @@ import video from './video'
 import vimeoVideo from './vimeoVideo'
 import parentDocumentVideo from './parent-document-video'
 import videoDocument from './videoDocument'
+import images from './image'
 
 export const schemaTypes = [
   post,
@@ -16,4 +17,5 @@ export const schemaTypes = [
   vimeoVideo,
   parentDocumentVideo,
   videoDocument,
+  images,
 ]
