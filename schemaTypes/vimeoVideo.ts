@@ -1,5 +1,6 @@
 import {defineType, defineField} from 'sanity'
-import VimeoBrowser from '../plugins/vimeo-selector/src/components/VimeoBrowser'
+import VimeoBrowser from '../components/VimeoBrowser'
+// import VimeoBrowser from '../plugins/vimeo-selector/src/components/VimeoBrowser'
 
 export default defineType({
   name: 'vimeoVideo',
@@ -28,4 +29,17 @@ export default defineType({
       },
     }),
   ],
+  preview: {
+    select: {
+      title: 'title',
+      thumbnail: 'vimeoVideo.thumbnail',
+    },
+    prepare(selection) {
+      const {title, thumbnail} = selection
+      return {
+        title: title,
+        imageUrl: thumbnail,
+      }
+    },
+  },
 })

@@ -16,10 +16,10 @@ export default defineType({
       type: 'text',
     }),
     defineField({
-      name: 'videoReference',
-      title: 'Video Reference',
+      name: 'videoOrImageReference',
+      title: 'Video/Image Reference',
       type: 'reference',
-      to: [{type: 'videoDocument'}, {type: 'vimeoVideo'}],
+      to: [{type: 'videoDocument'}, {type: 'vimeoVideo'}, {type: 'images'}],
     }),
   ],
 })

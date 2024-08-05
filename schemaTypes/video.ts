@@ -1,4 +1,3 @@
-// schemas/video.ts
 import {defineField, defineType} from 'sanity'
 
 export default defineType({
@@ -39,6 +38,7 @@ export default defineType({
       to: {type: 'vimeoVideo'}, // Reference to a Vimeo video type (if you define one)
     }),
   ],
+
   // preview: {
   //   select: {
   //     title: 'video.title',
